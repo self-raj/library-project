@@ -8,15 +8,15 @@ import Footer from './Component/footer'
 import Popular from './Component/Popular'
 
 function App() {
-  const [books, setBooks] = useState([
-    {
-      title: "The Midnight Library",
-      author: "Matt Haig",
-      genre: "Fiction",
-      rating: 4.8,
-      description: "Between life and death there is a library...",
-    }
-  ]);
+  // const [books, setBooks] = useState([
+  //   {
+  //     title: "The Midnight Library",
+  //     author: "Matt Haig",
+  //     genre: "Fiction",
+  //     rating: 4.8,
+  //     description: "Between life and death there is a library...",
+  //   }
+  // ]);
 
   return (
     <div>

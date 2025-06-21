@@ -30,7 +30,10 @@ const router = createBrowserRouter([
         element: <ViewDetails /> },
   
   
-]);
+],
+ {
+    basename: '/library-project',
+  });
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
